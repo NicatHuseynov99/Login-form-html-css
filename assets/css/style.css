@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://images.wallpaperscraft.com/image/single/mountain_snow_peak_1121795_1600x900.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.container .form-action {
+  display: block;
+  background-color: white;
+  padding: 44px;
+  margin-bottom: -100px;
+  border-radius: 5px;
+  height: 26%;
+  width: 18%;
+}
+
+.container .form-action .form-title {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color: brown;
+}
+
+.container .form-action .form-control {
+  margin-top: 12px;
+}
+
+.container .form-action .form-control .form-input {
+  height: 33px;
+  width: 100%;
+  border: 1px solid rgb(241, 218, 218);
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.container .form-action .form-control label {
+  font-size: 12px;
+  font-weight: 300;
+  margin-left: 4px;
+  color: #7a7a7a;
+}
+
+.container .form-action .form-control button {
+  width: 18%;
+  height: 35px;
+  background-color: rgb(48, 48, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 9px;
+  cursor: context-menu;
+}
+.container .form-action .acc-exist {
+  font-size: 14px;
+  font-weight: 300;
+  width: 100%;
+  color: #7a7a7a;
+  margin-top: 20px;
+}
+.login-nav {
+  color: rgb(67, 67, 255);
+  text-decoration: none;
+}
